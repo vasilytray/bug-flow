@@ -1,0 +1,11 @@
+# ВНИМАНИЕ НЕОБХОДИМО ОБНОВИТЬ ДО ПОСЛЕДНИХ ВЕРСИЙ!
+
+# backend/requirements/prod.txt
+-r base.txt
+
+# Production зависимости
+gunicorn==21.2.0
+uvicorn[standard]==0.38.0  # Для запуска через gunicorn
+sentry-sdk==1.38.0  # Мониторинг ошибок
+prometheus-client==0.23.1  # Метрики
+structlog==23.2.0  # Структурированное логирование
