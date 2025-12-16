@@ -280,7 +280,7 @@ version: '3.8'
 
 services:
   postgres:
-    image: postgres:15-alpine
+    image: postgres:16-alpine
     environment:
       POSTGRES_DB: bugflow
       POSTGRES_USER: bugflow
