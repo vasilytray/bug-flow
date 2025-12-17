@@ -483,18 +483,17 @@ source venv/bin/activate
 
 2. Структурированный requirements.txt
 txt
-# backend/requirements/base.txt
+##### backend/requirements/base.txt
 
-# backend/requirements/dev.txt
-# backend/requirements/prod.txt
+
 > [!NOTE] Внимание!
 > НЕОБХОДИМО ОБНОВИТЬ ЗАВИСИМОСТИ ДО ПОСЛЕДНИХ ВЕРСИЙ!
 > для:
-> # backend/requirements/dev.txt
-> # backend/requirements/prod.txt
+>  backend/requirements/dev.txt
+>  backend/requirements/prod.txt
 > 
 
-# backend/requirements.txt
+#### backend/requirements.txt
 
 ```txt
 # Основной файл для установки (разработка)
